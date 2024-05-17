@@ -1,0 +1,47 @@
+1. Accounts that have a “PRIME CUSTOMER ACCOUNT NAME” field having a value that is equal to “Reliance Industries”
+AND
+2. Contacts who have a “Intel Geography” field is equal to “APAC”
+AND
+3. Contacts who have a “Country” field is equal to “India”
+AND
+4.Contacts that have a “Source ID” having a value that is in the picklist “APJ NT Rjio Nurture Media List” in Source History CDO
+
+
+
+1. Contacts who have a “Intel Geography” field is equal to “APAC”
+AND
+2. Contacts who have a “Country” field is equal to “India”
+AND
+3.{
+Contacts who have a “Company” field having a value that contains “Reliance”
+OR
+Contacts who have a “Company” field having a value that is in the set “Reliance Jio Infocomm Limited,Reliance Industries,Reliance,Reliance Jio Infocomm Ltd,Reliance Jio Infocomm Ltd.,jio,Reliance Jio,rjio,Reliance Jio Infocomm,Jio Infocomm,Reliance Industries Limited,Reliance Industries Ltd,Reliance Industries Ltd.,RIL,Reliance Communication”
+OR
+Contacts who have a “Email Address Domain” field is equal to “ril.com”
+}
+AND
+4.Contacts that have a “Source ID” having a value that is in the set “APJ NT Rjio Nurture Media List” in Source History CDO
+
+
+
+
+AND
+3.{
+Contacts who have a “Industry” field having a value that is in the set “Agriculture,Construction,Education,Energy and Utilities,Finance and Insurance,Gaming,Government,Health and Life Sciences,Manufacturing,Professional and Business Services,Retail,Software and Services,Telecommunications”
+OR
+Contacts who have a “Industry” field is equal to “Transportation, Travel and Warehousing”
+OR
+Contacts who have a “Industry” field is equal to “Arts, Entertainment and Recreation”
+OR
+{
+Contacts who have a “Industry” field is equal to “Blank”
+AND
+{
+Contacts who have a Intel Programmatic Industry field having a value that is in the set “Agriculture,Construction,Education,Energy and Utilities,Finance and Insurance,Gaming,Government,Health and Life Sciences,Manufacturing,Professional and Business Services,Retail,Software and Services,Telecommunications”
+OR
+Contacts who have a Intel Programmatic Industry field is equal to “Transportation, Travel and Warehousing”
+OR
+Contacts who have a Intel Programmatic Industry field is equal to “Arts, Entertainment and Recreation”
+}
+}
+}

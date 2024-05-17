@@ -1,0 +1,20 @@
+"1. { 
+Contacts that have a “Webinar Subscription Status” is equal to “Subscribed” and “Opt-In Flow Type” is equal to “Exempt” in Global Subscriptions CDO
+OR
+Contacts that have a “Webinar Subscription Status” is equal to “Subscribed” and “Single Opt-In Receipt Sent Date” is “not Blank” in Global Subscriptions CDO
+OR
+Contacts  that have a “Webinar Subscription Status” is equal to “USER-SUB” and “Double Opt-In Confirmation Date” is “not Blank” in Global Subscriptions CDO
+OR
+Contacts that have “Webinar Subscription Status” is “Blank” in Global Subscriptions CDO
+}
+AND
+2.
+Contacts who have a “Intel Geography” field is equal to “APAC”
+AND
+3. Contacts who have a “Country” field is equal to “India”
+AND
+4. Contacts who have a “Intel Programmatic Profession” field having a value that is in the set “Data Sciences ,Software/Application Development/Engineering,Educator,Student,Other”
+AND
+5. Contacts who have a “Intel Programmatic Job Level” field having a value that is in the set “Professional/Staff/Associate,Other”
+AND
+6. Contacts who have a “Intel Programmatic Industry” field having a value that is in the set “Defense and Space,Education,Energy and Utilities,Health and Life Sciences,Manufacturing,To Be Defined,Software and Services”
